@@ -1,0 +1,18 @@
+.centeredWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck:first-child {
+    border-bottom:1px solid black;
+}
+
+body > header, body > footer {
+    background:#444;
+    color: #eee;
+    height: 70px;
+    line-height:70px;
+    text-align:center;
+}

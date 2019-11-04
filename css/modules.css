@@ -1,0 +1,19 @@
+main {
+    background: #fafafa;
+}
+
+main > .content {
+    background: #000;
+}
+
+main > aside {
+    background: #9C9000;
+}
+
+main > nav {
+    background: #ff0000;
+}
+
+.deck {
+    background: #0FA0CE;
+}
