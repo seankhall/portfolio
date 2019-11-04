@@ -1,12 +1,36 @@
-.centeredWords {
+/* .centeredWords {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} */
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
 
 .deck:first-child {
     border-bottom:1px solid black;
+}
+
+/* .bar {
+    justify-content: space-between;
+} */
+
+.sideNav {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.sideBar {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
 }
 
 body > header, body > footer {
@@ -16,3 +40,10 @@ body > header, body > footer {
     line-height:70px;
     text-align:center;
 }
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+}
+
